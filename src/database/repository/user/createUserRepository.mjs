@@ -1,4 +1,4 @@
-import User from "../../../models/User.js";
+import User from "../../../models/user.mjs";
 import { v4 as uuidv4 } from "uuid";
 import randomInteger from "random-int";
 

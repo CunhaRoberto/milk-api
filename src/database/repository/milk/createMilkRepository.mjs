@@ -1,5 +1,5 @@
-import Farm from "../../../models/farm.js";
-import Milk from "../../../models/milk.js";
+import Farm from "../../../models/farm.mjs";
+import Milk from "../../../models/milk.mjs";
 import priceCalc from "../../../useCases/priceCalc.js";
 import { v4 as uuidv4 } from "uuid";
 

@@ -1,5 +1,5 @@
-import Farm from "../../../models/farm.js";
-import User from "../../../models/User.js";
+import Farm from "../../../models/farm.mjs";
+import User from "../../../models/user.mjs";
 import { v4 as uuidv4 } from "uuid";
 import randomInteger from "random-int";
 

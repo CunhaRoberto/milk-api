@@ -1,5 +1,5 @@
 import express from "express";
-import Milk from "../controllers/milk.js";
+import Milk from "../controllers/milk.mjs";
 
 import ValidateMilkRegister from "../database/middleware/validateRoutes/validateMilkRegister.js";
 import ValidateMilkSearch from "../database/middleware/validateRoutes/validateMilkSearch.js";

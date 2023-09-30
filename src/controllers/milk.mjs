@@ -1,7 +1,7 @@
-import createMilkRepository from "../database/repository/milk/createMilkRepository.cjs";
-import SearchMilkRepository from "../database/repository/milk/searchMilkRepository.cjs";
-import SearchPriceMilkMonthRepository from "../database/repository/milk/searchPriceMilkMonthRepository.cjs";
-import SearchPriceMilkYearRepository from "../database/repository/milk/searchPriceMilkYearRepository.cjs";
+import createMilkRepository from "../database/repository/milk/createMilkRepository.mjs";
+import SearchMilkRepository from "../database/repository/milk/searchMilkRepository.mjs";
+import SearchPriceMilkMonthRepository from "../database/repository/milk/searchPriceMilkMonthRepository.mjs";
+import SearchPriceMilkYearRepository from "../database/repository/milk/searchPriceMilkYearRepository.mjs";
 
 
 export default {
