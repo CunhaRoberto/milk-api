@@ -1,4 +1,4 @@
-import createUserRepository from "../database/repository/user/createUserRepository.js";
+import createUserRepository from "../database/repository/user/createUserRepository.cjs";
 
 export default {
   create: async (req, res, next) => {
