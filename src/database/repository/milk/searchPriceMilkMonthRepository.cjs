@@ -1,5 +1,5 @@
 import Milk from "../../../models/milk.js";
-import query from '../../query/queryPriceMilkMonthProduction.js'
+import query from '../../query/queryPriceMilkMonthProduction.cjs'
 
 export default {
   execute: async (milk) => {

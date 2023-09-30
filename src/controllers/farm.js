@@ -1,4 +1,4 @@
-import createFarmRepository from "../database/repository/farm/createFarmRepository.js";
+import createFarmRepository from "../database/repository/farm/createFarmRepository.cjs";
 
 export default {
   create: async (req, res, next) => {
