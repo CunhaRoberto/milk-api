@@ -15,7 +15,7 @@ export default {
 
       user._id = uuidv4()
       user.codUser = randomInteger(100, 100000)
-      user.createAt = new Date()
+      user.createdAt = new Date()
    
       const resultCreate = await User.create(user);     
       return resultCreate;
